@@ -1,6 +1,3 @@
-##WRITE THE BACKSIDE
-%%writefile app.py
-
 import streamlit as st
 from ultralytics import YOLO
 from PIL import Image, ImageDraw
