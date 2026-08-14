@@ -14,10 +14,10 @@ import tempfile
 # Load Model + Labels
 # --------------------
 
-model = YOLO("/content/drive/MyDrive/Dental AI/best.pt")
+model = YOLO("best.pt")
 
 
-with open("/content/drive/MyDrive/Dental AI/test_annotations_anonymized.json") as f:
+with open("test_annotations_anonymized.json") as f:
     coco = json.load(f)
 
 
